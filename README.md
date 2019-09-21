@@ -25,6 +25,18 @@ Run the End to End Stress Test, which send 1,000 p2p transactions into the http 
 ./e2e.sh
 ```
 
+### Step 3
+
+Get the two competing consumers.
+Maria-DB based consumer:
+```
+git clone https://github.com/andrewkkchan/client-ledger-core-db.git
+```
+Redis based consumer:
+```
+git clone https://github.com/andrewkkchan/client-ledger-core-redis.git
+```
+
 ## Abstract
 
 Common practices of relying on ACID properties of database in resolving conflicts and recovering from failure would not scale in high-concurrency, low-latency use cases (e.g., trading, betting, payment).
