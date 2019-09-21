@@ -18,3 +18,14 @@ Run Kafka (Assuming you are running on Mac, and you have already installed Apach
 sudo ./kafka.sh
 ```
 
+### Step 2
+
+Run the End to End Stress Test, which send 1,000 p2p transactions into the http endpoint.
+```
+./e2e.sh
+```
+
+## Why Event Sourcing?
+
+The above is a basic set up for mobile/web environment to install event sourcing ledger functionality. And even with such a primitive set up, the http endpoint can easily handle 1,000 transactions per second.
+
