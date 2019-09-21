@@ -35,3 +35,12 @@ This sharing further explores a more complicated use cases, where stochastic sce
 Ledger which relies on database ACID properties will handle up to 10-20 transaction per second. When pushed over that, there is a chance that the business rule (e.g., client ledger balance must not be overdrawn, a.k.a., <0) will be broken by racing condition and thread visibility.
 This code base is a basic set up for mobile/web environment to install event sourcing ledger functionality. And even with such a primitive set up, the http endpoint can easily handle 1,000 transactions per second, with 100% guarantee of holding business rules.
 
+## What about 1 million per second?
+In commercial products with trading, betting and payment enterprises, I have achieved 1 million transaction per second while holding all business rules intact.  A step-by-step customization and specialization on software and hardware is required.
+
+### Step 1: To 10,000 per second
+
+### Step 2: To 100,000 per second
+
+### Step 3 : To 1,000,000 per second 
+
