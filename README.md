@@ -39,6 +39,7 @@ This code base is a basic set up for mobile/web environment to install event sou
 In commercial products with trading, betting and payment enterprises, I have achieved 1 million transaction per second while holding all business rules intact.  A step-by-step customization and specialization on software and hardware is required.
 
 ### Step 1: To 10,000 per second
+* Replace HTTP endpoint with TCP endpoint. For example, use Kafka/Solace as incoming message handlers -- which would remove the limitation of HTTP protocol and HTTP server overhead.
 
 ### Step 2: To 100,000 per second
 
