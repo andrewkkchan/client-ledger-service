@@ -6,3 +6,15 @@ client-ledger-service is part 1 of the 3 parts of a simple ledger demo over even
 
 ## Quick start
 
+### Step 1
+
+Go to stress test folder
+```
+cd stress
+```
+
+Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka)
+```
+sudo ./kafka.sh
+```
+
