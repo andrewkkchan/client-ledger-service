@@ -1,0 +1,13 @@
+{
+  "type": "p2p",
+  "request": {
+    "currency": "USD",
+    "amount": 100,
+    "fee": 10,
+    "tax": 5,
+    "fromCustomerAccount": "12345",
+    "toCustomerAccount": "23456",
+    "feeAccount": "34567",
+    "taxAccount": "45678"
+  }
+}

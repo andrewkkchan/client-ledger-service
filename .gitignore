@@ -1,0 +1,8 @@
+.idea/
+**/.DS_Store
+target
+**/*.iml
+stress/metrics.json
+stress/plot.html
+stress/results.bin
+transaction-logs/
