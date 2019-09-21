@@ -43,7 +43,7 @@ In commercial products with trading, betting and payment enterprises, I have ach
 
 ### Step 2: To 100,000 per second
 * Replace Messaging endpoint on TCP with those on UDP.  You will however need to maintain reliable in sequence transfer of events.
-* A commonly used UDP protocol for event sourcing is Aeron:  https://github.com/real-logic/aeron
+* Install competing consumers, with at least one of which being implemented in-memory, to cope with the burst of events
 
 ### Step 3: To 1,000,000 per second
 * Avoid garbage collection
