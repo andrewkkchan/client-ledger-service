@@ -42,6 +42,10 @@ In commercial products with trading, betting and payment enterprises, I have ach
 * Replace HTTP endpoint with TCP endpoint. For example, use Kafka/Solace as incoming message handlers -- which would remove the limitation of HTTP protocol and HTTP server overhead.
 
 ### Step 2: To 100,000 per second
+* Replace Messaging endpoint on TCP with those on UDP.  You will however need to maintain reliable in sequence transfer of events.
+* A commonly used UDP protocol for event sourcing is Aeron:  https://github.com/real-logic/aeron
 
-### Step 3 : To 1,000,000 per second 
+### Step 3: To 1,000,000 per second
+* Avoid garbage collection
+* Contact me
 
