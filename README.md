@@ -13,7 +13,9 @@ Go to stress test folder
 cd stress
 ```
 
-Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka) The script uses default config which has only 1 partition. Make sure you config to at least the number of consumers (say 3).
+Run Kafka (Assuming you are running on Mac, and you have already installed Apache Kafka). 
+
+*The script uses default config which has only 1 partition. Make sure you config to at least the number of consumers (say 3).*
 ```
 sudo ./kafka.sh
 ```
