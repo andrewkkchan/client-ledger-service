@@ -47,6 +47,6 @@ In commercial products with trading, betting and payment enterprises, I have ach
 * Install competing consumers, with at least one of which being implemented in-memory, to cope with the burst of events and support query during burst. Persisting consumer will eventually catch up.
 
 ### Step 3: To 1,000,000 per second
-* Avoid garbage collection using ring buffer and other technique.
+* Avoid garbage collection using pre-allocated ring buffer and other technique.
 * Contact me
 
