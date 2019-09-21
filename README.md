@@ -48,5 +48,7 @@ In commercial products with trading, betting and payment enterprises, I have ach
 
 ### Step 3: To 1,000,000 per second
 * Avoid garbage collection using pre-allocated ring buffer and other technique.
-* Contact me
+
+### Contact
+You can follow me on https://medium.com/@andrewchan_73514
 
