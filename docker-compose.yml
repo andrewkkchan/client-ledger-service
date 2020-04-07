@@ -1,0 +1,17 @@
+version: "2.1"
+
+networks:
+  client-ledger-core-db_test:
+    external: true
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3003:3003"
+    networks:
+      - client-ledger-core-db_test
+
+
